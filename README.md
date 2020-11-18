@@ -1,7 +1,7 @@
 ![](https://github.com/shobhitsharma/var-dotenv-action/workflows/Test/badge.svg)
 ![GitHub license](https://img.shields.io/github/license/shobhitsharma/var-dotenv-action)
 
-# env-to-dotenv
+# var-dotenv-action
 
 GitHub action that injects env variable to a dotenv file
 
@@ -9,7 +9,7 @@ GitHub action that injects env variable to a dotenv file
 
 ```yaml
 steps:
-  - uses: shobhitsharma/var-dotenv-action@v1.1.1
+  - uses: shobhitsharma/var-dotenv-action@v1.0.0
     with:
       key: 'SOME_API_URI' # [Required]
       value: ${{secrets.SOME_API_URI}} # [Required]

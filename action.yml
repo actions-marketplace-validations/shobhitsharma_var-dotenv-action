@@ -1,4 +1,4 @@
-name: 'env-to-dotenv'
+name: 'var-dotenv-action'
 description: 'GitHub action that injects env variable to a dotenv file'
 inputs:
   key:
