@@ -1,6 +1,6 @@
 {
   "name": "var-dotenv-action",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "GitHub action that injects env variable to a dotenv file",
   "main": "dist/index.js",
   "license": "MIT",

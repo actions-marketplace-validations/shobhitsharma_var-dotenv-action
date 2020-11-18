@@ -9,11 +9,11 @@ GitHub action that injects env variable to a dotenv file
 
 ```yaml
 steps:
-  - uses: shobhitsharma/var-dotenv-action@v1.0.0
+  - uses: shobhitsharma/var-dotenv-action@v{LATEST_GIT_TAG_HERE}
     with:
-      key: 'SOME_API_URI' # [Required]
-      value: ${{secrets.SOME_API_URI}} # [Required]
-      default: 'https://api.alt.com' # [Optional] if `value` is empty, this is used instead
+      key: 'KEY_ATTRIBUTE' # [Required]
+      value: ${{secrets.KEY_ATTRIBUTE}} # [Required]
+      default: 'FALLBACK_ATTRIBUTE' # [Optional] if `value` is empty, this is used instead
       nullable: 'false' # [Optional] if the resolved value is empty, the variable will be omitted
       envPath: '.env' # [Optional] The path to the dotenv file (defaults to `.env`)
 ```
