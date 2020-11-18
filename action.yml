@@ -1,11 +1,11 @@
-name: 'env to dotenv'
-description: 'Appends a variable to a dotenv file'
+name: 'env-to-dotenv'
+description: 'GitHub action that injects env variable to a dotenv file'
 inputs:
   key:
-    description: 'Name of key'
+    description: 'Key attribute'
     required: true
   value:
-    description: 'Value of key'
+    description: 'Value attribute'
     required: true
   default:
     description: 'A default value for the key (if `value` is empty, this is used instead)'

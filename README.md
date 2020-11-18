@@ -1,9 +1,9 @@
 ![](https://github.com/shobhitsharma/var-dotenv-action/workflows/Test/badge.svg)
 ![GitHub license](https://img.shields.io/github/license/shobhitsharma/var-dotenv-action)
 
-# Variable to Dotenv
+# env-to-dotenv
 
-A GitHub action that appends a variable to a dotenv file.
+GitHub action that injects env variable to a dotenv file
 
 ## Usage
 
