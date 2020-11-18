@@ -1,0 +1,23 @@
+{
+  "name": "var-dotenv-action",
+  "version": "1.0.0",
+  "description": "GitHub action that injects env variable to a dotenv file",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx ncc build src/main.ts -o dist",
+    "test": "npx jest"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.8",
+    "@zeit/ncc": "^0.21.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.0.5"
+  }
+}
