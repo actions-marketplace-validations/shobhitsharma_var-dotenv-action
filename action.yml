@@ -1,4 +1,4 @@
-name: 'Variable to Dotenv'
+name: 'env to dotenv'
 description: 'Appends a variable to a dotenv file'
 inputs:
   key:
